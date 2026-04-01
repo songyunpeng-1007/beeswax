@@ -1,0 +1,15 @@
+{
+  "name": "beeswax-site-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight beeswax site with inquiry submission, admin dashboard, and email alerts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1",
+    "sqlite3": "^5.1.7"
+  }
+}

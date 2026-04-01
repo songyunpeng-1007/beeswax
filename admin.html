@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inquiry Admin | Hebei Cera Rica</title>
+  <meta name="description" content="Admin dashboard for inquiry records.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="admin-page">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand brand-logo-link" href="index.html" aria-label="Hebei Cera Rica home">
+        <img class="brand-logo-image" src="assets/images/brand/cera-rica-logo-header.png?v=202604011708" alt="Hebei Cera Rica logo">
+      </a>
+      <nav class="site-nav site-nav-static" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero product-hero">
+      <div class="container admin-hero-row">
+        <div>
+          <p class="eyebrow">Lightweight Admin</p>
+          <h1>Inquiry Records</h1>
+          <p class="lead">View submitted inquiries, update follow-up status, and keep everything in one small dashboard.</p>
+        </div>
+        <button id="logoutButton" class="btn btn-secondary" type="button">Log Out</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container admin-summary-grid">
+        <article class="card"><h3>Total Inquiries</h3><p class="admin-metric" id="totalCount">0</p></article>
+        <article class="card"><h3>New</h3><p class="admin-metric" id="newCount">0</p></article>
+        <article class="card"><h3>Follow-up</h3><p class="admin-metric" id="followUpCount">0</p></article>
+        <article class="card"><h3>Closed</h3><p class="admin-metric" id="closedCount">0</p></article>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container admin-toolbar">
+        <div class="admin-toolbar-left">
+          <label class="admin-search">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Name, company, email, country, product...">
+          </label>
+          <label class="admin-filter">
+            <span>Status</span>
+            <select id="statusFilter">
+              <option value="">All</option>
+              <option value="new">New</option>
+              <option value="contacted">Contacted</option>
+              <option value="follow_up">Follow Up</option>
+              <option value="closed">Closed</option>
+              <option value="invalid">Invalid</option>
+            </select>
+          </label>
+        </div>
+        <button id="refreshButton" class="btn btn-small" type="button">Refresh</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container admin-layout">
+        <div class="admin-table-wrap card">
+          <div id="adminMessage" class="admin-message" hidden></div>
+          <div class="table-wrap">
+            <table class="spec-table admin-table">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>Name</th>
+                  <th>Company</th>
+                  <th>Country</th>
+                  <th>Product</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="inquiryTableBody">
+                <tr><td colspan="7" class="muted">Loading...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <aside class="card admin-detail-card">
+          <h2>Inquiry Detail</h2>
+          <p class="muted" id="detailEmpty">Select one record to view full details.</p>
+          <div id="detailPanel" hidden>
+            <dl class="admin-detail-list" id="detailList"></dl>
+            <label>
+              Status
+              <select id="detailStatus">
+                <option value="new">New</option>
+                <option value="contacted">Contacted</option>
+                <option value="follow_up">Follow Up</option>
+                <option value="closed">Closed</option>
+                <option value="invalid">Invalid</option>
+              </select>
+            </label>
+            <label>
+              Internal Note
+              <textarea id="detailNote" rows="5" placeholder="Add follow-up note here..."></textarea>
+            </label>
+            <button id="saveDetailButton" class="btn" type="button">Save Update</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

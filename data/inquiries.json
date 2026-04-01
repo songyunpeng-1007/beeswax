@@ -1,0 +1,19 @@
+[
+  {
+    "id": "88e379fa-320b-4373-acf9-4ad20b404ed6",
+    "name": "Test Buyer",
+    "company": "Demo Import Co.",
+    "email": "buyer@example.com",
+    "contact_method": "Email",
+    "country": "Germany",
+    "product": "Yellow Beeswax",
+    "quantity": "1 ton / month",
+    "message": "This is a local test inquiry for the admin workflow.",
+    "status": "new",
+    "note": "",
+    "sourcePage": "contact.html",
+    "ip": "::1",
+    "createdAt": "2026-03-17T02:07:15.592Z",
+    "updatedAt": "2026-03-17T02:07:15.592Z"
+  }
+]

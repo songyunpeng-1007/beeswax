@@ -1,0 +1,27 @@
+{
+  "site": {
+    "port": 8080,
+    "baseUrl": "http://localhost:8080",
+    "trustProxy": false
+  },
+  "admin": {
+    "username": "admin",
+    "password": "change-this-password",
+    "passwordSha256": ""
+  },
+  "database": {
+    "path": "data/site.db"
+  },
+  "email": {
+    "enabled": false,
+    "host": "smtp.example.com",
+    "port": 465,
+    "secure": true,
+    "user": "smtp-user@example.com",
+    "pass": "smtp-password",
+    "from": "Hebei Cera Rica <no-reply@example.com>",
+    "to": [
+      "xinlelikang0318@163.com"
+    ]
+  }
+}

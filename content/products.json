@@ -5,6 +5,7 @@
     "shortDescription": "Natural yellow beeswax for cosmetics, candle making, polish, and general industrial applications.",
     "longDescription": [
       "Yellow beeswax is a practical natural wax option for buyers who need a stable raw material for candle production, polish blends, personal care formulas, and general industrial processing.",
+      "Buyers often choose yellow beeswax when they want a more natural-looking beeswax direction and a familiar wholesale starting point for commercial discussion.",
       "This page is written for procurement use: buyers can review the common form, basic application direction, packaging support, and what to prepare before requesting a quote.",
       "If your team needs sample review, packing discussion, or supporting product information, mention it in the inquiry so the first commercial response can be more useful."
     ],
@@ -25,25 +26,50 @@
     ],
     "specs": {
       "Product Name": "Yellow Beeswax",
-      "Color": "Yellow",
+      "Color Direction": "Natural yellow to golden appearance",
       "Common Form": "Block / Slab / Custom-cut form",
-      "Typical Buyer Use": "Candles, cosmetics, polish, industrial processing",
+      "Typical Buyer Use": "Candles, cosmetics, polish, furniture care, industrial processing",
+      "Why Buyers Choose It": "Often selected for a more natural-looking beeswax direction",
       "Packaging": "Discussed according to shipment and buyer requirements",
       "Sample": "Can be discussed during inquiry",
       "Documents": "Applicable support discussed based on project needs",
       "Quotation Basis": "Product, quantity, destination, and packing direction"
     },
-    "applications": ["Cosmetics", "Candle Making", "Furniture Care", "Polish", "Industrial Processing"],
-    "packaging": ["Bulk packaging support", "Custom packing available on request", "Shipment-friendly handling options"],
-    "documents": ["Applicable supporting information can be discussed during inquiry", "Quality-related communication available upon request", "Export coordination available for overseas buyers"],
+    "applications": [
+      "Cosmetics",
+      "Candle Making",
+      "Furniture Care",
+      "Polish",
+      "Industrial Processing"
+    ],
+    "packaging": [
+      "Bulk packaging support",
+      "Custom packing available on request",
+      "Shipment-friendly handling options",
+      "Packaging discussion can start from quantity and destination market"
+    ],
+    "documents": [
+      "Applicable supporting information can be discussed during inquiry",
+      "Quality-related communication available upon request",
+      "Export coordination available for overseas buyers",
+      "Sample and document discussion can be included in the first inquiry"
+    ],
     "faq": [
       {
         "question": "What is yellow beeswax usually used for?",
         "answer": "Yellow beeswax is commonly discussed for candles, cosmetics, polish, furniture care, and general industrial processing projects."
       },
       {
+        "question": "Why do buyers choose yellow beeswax instead of white beeswax?",
+        "answer": "Yellow beeswax is often preferred when the buyer wants a more natural-looking beeswax direction rather than a more refined white appearance."
+      },
+      {
         "question": "Can yellow beeswax packaging be discussed before order confirmation?",
         "answer": "Yes. Buyers can discuss packaging direction based on shipment method, handling preference, and destination requirements."
+      },
+      {
+        "question": "How is beeswax usually stored after delivery?",
+        "answer": "Buyers usually keep beeswax clean, dry, and protected from direct sunlight, contamination, and strong odors during storage."
       },
       {
         "question": "Can I ask for sample review before bulk order?",
@@ -61,8 +87,16 @@
       "Tell us if sample or supporting product information is needed."
     ],
     "relatedProducts": [
-      { "name": "White Beeswax", "slug": "white-beeswax" },
-      { "name": "Yellow Beeswax Pellets / Flakes", "slug": "yellow-beeswax-pellets-flakes" }
+      {
+        "name": "White Beeswax",
+        "slug": "white-beeswax",
+        "summary": "Compare this if your project needs a cleaner-looking refined white wax direction."
+      },
+      {
+        "name": "Yellow Beeswax Pellets / Flakes",
+        "slug": "yellow-beeswax-pellets-flakes",
+        "summary": "Compare this if easier dosing, batching, or production handling matters to your process."
+      }
     ]
   },
   {
@@ -71,6 +105,7 @@
     "shortDescription": "Refined white beeswax with a cleaner appearance for personal care, specialty processing, and selected industrial applications.",
     "longDescription": [
       "White beeswax is positioned for buyers who need a more refined appearance for personal care, specialty production, and projects where product presentation matters.",
+      "Buyers often compare white beeswax with yellow beeswax when appearance, color direction, and finished-product presentation are part of the decision.",
       "The product page stays conservative and commercial: enough information for the buyer to decide whether to continue with sample, packing, or quotation discussion.",
       "If your project has market-specific requirements, mention destination and intended use in the inquiry so the next response can be better aligned."
     ],
@@ -91,17 +126,34 @@
     ],
     "specs": {
       "Product Name": "White Beeswax",
-      "Color": "White",
+      "Color Direction": "Refined white appearance",
       "Common Form": "Block / Slab / Custom-cut form",
       "Typical Buyer Use": "Personal care, specialty blends, selected industrial use",
+      "Why Buyers Choose It": "Often selected when a cleaner-looking refined wax direction is preferred",
       "Packaging": "Discussed according to shipment and buyer requirements",
       "Sample": "Can be discussed during inquiry",
       "Documents": "Applicable support discussed based on project needs",
       "Quotation Basis": "Product, quantity, destination, and packing direction"
     },
-    "applications": ["Personal Care", "Specialty Wax Blends", "Cosmetics", "Selected Industrial Processing", "Project-Based Sourcing"],
-    "packaging": ["Bulk packaging support", "Custom packing available on request", "Shipment-ready packing options available"],
-    "documents": ["Relevant supporting information can be discussed during inquiry", "Quality communication available upon request", "Export paperwork coordination available"],
+    "applications": [
+      "Personal Care",
+      "Specialty Wax Blends",
+      "Cosmetics",
+      "Selected Industrial Processing",
+      "Project-Based Sourcing"
+    ],
+    "packaging": [
+      "Bulk packaging support",
+      "Custom packing available on request",
+      "Shipment-ready packing options available",
+      "Packaging can be discussed together with appearance and handling needs"
+    ],
+    "documents": [
+      "Relevant supporting information can be discussed during inquiry",
+      "Quality communication available upon request",
+      "Export paperwork coordination available",
+      "Sample and document review can be aligned with project stage"
+    ],
     "faq": [
       {
         "question": "Why do buyers choose white beeswax instead of yellow beeswax?",
@@ -116,6 +168,10 @@
         "answer": "Yes. Buyers can mention sample needs, destination market, and packaging direction during inquiry."
       },
       {
+        "question": "How is beeswax usually stored after delivery?",
+        "answer": "Buyers usually keep beeswax clean, dry, and protected from direct sunlight and strong odors to support stable storage."
+      },
+      {
         "question": "What helps make the quotation more relevant?",
         "answer": "The most useful details are intended use, target quantity, destination market, and whether document or sample review is needed."
       }
@@ -127,8 +183,16 @@
       "Tell us if you want samples or supporting information first."
     ],
     "relatedProducts": [
-      { "name": "Yellow Beeswax", "slug": "yellow-beeswax" },
-      { "name": "White Beeswax Pellets / Flakes", "slug": "white-beeswax-pellets-flakes" }
+      {
+        "name": "Yellow Beeswax",
+        "slug": "yellow-beeswax",
+        "summary": "Compare this if your project prefers a more natural-looking yellow wax direction."
+      },
+      {
+        "name": "White Beeswax Pellets / Flakes",
+        "slug": "white-beeswax-pellets-flakes",
+        "summary": "Compare this if you want the white refined direction with easier dosing and blending convenience."
+      }
     ]
   },
   {
@@ -138,6 +202,7 @@
     "longDescription": [
       "Yellow beeswax pellets or flakes are suitable for buyers who prefer easier dosing, cleaner handling, and more convenient batch loading during production or formulation.",
       "This format is often relevant for contract manufacturing, blending, and medium- to large-volume processing where handling efficiency matters.",
+      "Compared with larger block form, pellets or flakes are often easier for batching, dosing, and day-to-day factory use.",
       "If you want to compare pellet and flake direction, include your process details in the inquiry so the discussion starts from actual use."
     ],
     "coverImage": "assets/images/products/yellow-beeswax-pellets.jpg",
@@ -157,17 +222,34 @@
     ],
     "specs": {
       "Product Name": "Yellow Beeswax Pellets / Flakes",
-      "Color": "Yellow",
+      "Color Direction": "Natural yellow appearance",
       "Common Form": "Pellet / Flake",
       "Typical Buyer Use": "Formulation, blending, candle production, bulk processing",
+      "Why Buyers Choose It": "Often selected for easier dosing, blending, and production handling",
       "Packaging": "Discussed according to shipment and buyer requirements",
       "Sample": "Can be discussed during inquiry",
       "Documents": "Applicable support discussed based on project needs",
       "Quotation Basis": "Product, quantity, destination, and packing direction"
     },
-    "applications": ["Formulation Use", "Bulk Processing", "Candle Manufacturing", "Blend Preparation", "Factory Production"],
-    "packaging": ["Bag or carton-based packing can be discussed", "Convenient for production-line use", "Custom packing available according to shipment plan"],
-    "documents": ["Document support available upon request", "Quality communication available for buyer review", "Export coordination available for overseas orders"],
+    "applications": [
+      "Formulation Use",
+      "Bulk Processing",
+      "Candle Manufacturing",
+      "Blend Preparation",
+      "Factory Production"
+    ],
+    "packaging": [
+      "Bag or carton-based packing can be discussed",
+      "Convenient for production-line use",
+      "Custom packing available according to shipment plan",
+      "Packing direction can be matched to factory handling preference"
+    ],
+    "documents": [
+      "Document support available upon request",
+      "Quality communication available for buyer review",
+      "Export coordination available for overseas orders",
+      "Sample and support discussion can be included in the first inquiry"
+    ],
     "faq": [
       {
         "question": "Why do buyers choose pellets or flakes instead of block form?",
@@ -182,6 +264,10 @@
         "answer": "Yes. Buyers can discuss bag, carton, or other practical packing direction according to shipment and usage needs."
       },
       {
+        "question": "How is beeswax usually stored after delivery?",
+        "answer": "Buyers usually keep beeswax dry, clean, and protected from direct sunlight and strong odors during storage and production staging."
+      },
+      {
         "question": "What information should I share before asking for a quote?",
         "answer": "Please send your intended use, estimated volume, destination market, and whether pellet or flake direction is preferred."
       }
@@ -193,8 +279,16 @@
       "Mention any packing or sample request in the first message."
     ],
     "relatedProducts": [
-      { "name": "Yellow Beeswax", "slug": "yellow-beeswax" },
-      { "name": "White Beeswax Pellets / Flakes", "slug": "white-beeswax-pellets-flakes" }
+      {
+        "name": "Yellow Beeswax",
+        "slug": "yellow-beeswax",
+        "summary": "Compare this if your team prefers the familiar block or slab wholesale format."
+      },
+      {
+        "name": "White Beeswax Pellets / Flakes",
+        "slug": "white-beeswax-pellets-flakes",
+        "summary": "Compare this if you want the same handling convenience with a refined white appearance."
+      }
     ]
   },
   {
@@ -204,6 +298,7 @@
     "longDescription": [
       "White beeswax pellets or flakes combine a refined appearance with easier handling during dosing, blending, and production use.",
       "This option is useful for buyers who want the convenience of pellet or flake format while keeping a cleaner-looking white beeswax direction.",
+      "It is often discussed for personal care production, specialty blending, and projects where both appearance and handling convenience matter.",
       "A dedicated white pellet image is not yet confirmed in the current source materials, so the page uses the available white beeswax reference while keeping the commercial positioning clear."
     ],
     "coverImage": "assets/images/products/white-beeswax-block.jpg",
@@ -223,17 +318,34 @@
     ],
     "specs": {
       "Product Name": "White Beeswax Pellets / Flakes",
-      "Color": "White",
+      "Color Direction": "Refined white appearance",
       "Common Form": "Pellet / Flake",
       "Typical Buyer Use": "Personal care production, blending, specialty processing",
+      "Why Buyers Choose It": "Often selected for easier handling together with a cleaner-looking refined white direction",
       "Packaging": "Discussed according to shipment and buyer requirements",
       "Sample": "Can be discussed during inquiry",
       "Documents": "Applicable support discussed based on project needs",
       "Quotation Basis": "Product, quantity, destination, and packing direction"
     },
-    "applications": ["Personal Care Production", "Specialty Blending", "Convenient Batch Dosing", "Industrial Processing", "Project-Based Supply"],
-    "packaging": ["Custom packing available according to buyer needs", "Suitable for easier dosing and handling", "Shipment-friendly options available upon request"],
-    "documents": ["Relevant documents can be discussed during inquiry", "Quality support available upon request", "Export coordination available for overseas buyers"],
+    "applications": [
+      "Personal Care Production",
+      "Specialty Blending",
+      "Convenient Batch Dosing",
+      "Industrial Processing",
+      "Project-Based Supply"
+    ],
+    "packaging": [
+      "Custom packing available according to buyer needs",
+      "Suitable for easier dosing and handling",
+      "Shipment-friendly options available upon request",
+      "Packing can be discussed together with application and handling needs"
+    ],
+    "documents": [
+      "Relevant documents can be discussed during inquiry",
+      "Quality support available upon request",
+      "Export coordination available for overseas buyers",
+      "Sample and support discussion can be aligned with product review stage"
+    ],
     "faq": [
       {
         "question": "Why choose white beeswax pellets or flakes?",
@@ -248,6 +360,10 @@
         "answer": "Yes. Packing, samples, and applicable supporting information can all be discussed during inquiry."
       },
       {
+        "question": "How is beeswax usually stored after delivery?",
+        "answer": "Buyers usually store beeswax clean and dry, away from direct sunlight, contamination, and strong odors."
+      },
+      {
         "question": "What helps move the inquiry forward faster?",
         "answer": "Please share intended use, required form, target quantity, destination, and whether any sample or document review is needed."
       }
@@ -259,8 +375,16 @@
       "Let us know whether sample or supporting information is required."
     ],
     "relatedProducts": [
-      { "name": "White Beeswax", "slug": "white-beeswax" },
-      { "name": "Yellow Beeswax Pellets / Flakes", "slug": "yellow-beeswax-pellets-flakes" }
+      {
+        "name": "White Beeswax",
+        "slug": "white-beeswax",
+        "summary": "Compare this if you prefer the same refined white direction in a block or slab wholesale format."
+      },
+      {
+        "name": "Yellow Beeswax Pellets / Flakes",
+        "slug": "yellow-beeswax-pellets-flakes",
+        "summary": "Compare this if handling convenience matters but your project prefers a more natural yellow wax direction."
+      }
     ]
   }
 ]

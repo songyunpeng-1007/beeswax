@@ -34,14 +34,14 @@
 
   function renderRelatedProducts(items) {
     if (!items || !items.length) {
-      return '<article class="card"><h3>Explore More Products</h3><p>Please return to the products page to compare available beeswax options.</p><p><a class="text-link" href="products.html">View Products</a></p></article>';
+      return '<article class="card"><h3>Explore More Products</h3><p>Please return to the products page to compare available beeswax options.</p><p><a class="text-link" href="/products">View Products</a></p></article>';
     }
 
     return items.map(function (item) {
       return '<article class="card related-product-card">'
         + '<h3>' + escapeHtml(item.name) + '</h3>'
-        + '<p>Compare this option if you want a different form, appearance, or handling direction for your project.</p>'
-        + '<p><a class="text-link" href="product.html?slug=' + encodeURIComponent(item.slug) + '">View Product</a></p>'
+        + '<p>' + escapeHtml(item.summary || 'Compare this option if you want a different form, appearance, or handling direction for your project.') + '</p>'
+        + '<p><a class="text-link" href="/product?slug=' + encodeURIComponent(item.slug) + '">View Product</a></p>'
         + '</article>';
     }).join('');
   }
@@ -53,7 +53,7 @@
   }
 
   function setQuoteLinks(productName) {
-    var href = 'contact.html?product=' + encodeURIComponent(productName);
+    var href = '/contact?product=' + encodeURIComponent(productName);
     ['quoteButton', 'quoteButtonBottom', 'quoteButtonFinal'].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.setAttribute('href', href);

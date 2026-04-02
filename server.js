@@ -339,6 +339,25 @@ app.use((req, res, next) => {
 
 app.use(express.json({ limit: '1mb' }));
 app.use(express.urlencoded({ extended: true }));
+
+const pageAliases = {
+  '/': '/index.html',
+  '/about': '/about.html',
+  '/products': '/products.html',
+  '/product': '/product.html',
+  '/contact': '/contact.html',
+  '/admin': '/admin.html'
+};
+
+Object.entries(pageAliases).forEach(([route, target]) => {
+  app.get(route, (req, res, next) => {
+    if (route === '/' && req.path !== '/') {
+      return next();
+    }
+    res.sendFile(path.join(ROOT, target.slice(1)));
+  });
+});
+
 app.use(express.static(ROOT));
 
 let db;
